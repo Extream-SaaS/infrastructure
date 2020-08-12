@@ -4,4 +4,4 @@ metadata:
   name: extreamer
 spec:
   domains:
-    - *.stream.extream.app
+    - monitoring.stream.extream.app
