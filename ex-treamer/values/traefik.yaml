@@ -1,0 +1,16 @@
+ssl:
+  enabled: true
+  enforced: true
+
+
+acme:
+  staging: false
+  enabled: true
+  email: rich@extream.app
+  challengeType: "http-01"
+  domains:
+    enabled: true
+    domainsList:
+      - main: "incoming.streaming.extream.app"
+      - sans:
+          - "*.incoming.streaming.extream.app"
