@@ -41,9 +41,9 @@ CREATE TABLE public.organisations
     public_id uuid DEFAULT uuid_generate_v4 (),
     name text,
     website text,
-    user_id integer,
-    parent integer,
-    landing_page integer,
+    user_id uuid,
+    parent uuid,
+    landing_page uuid,
     PRIMARY KEY (id)
 )
 WITH (
@@ -61,11 +61,11 @@ CREATE TABLE public.events
     public_id uuid DEFAULT uuid_generate_v4 (),
     name text,
     website text,
-    organisation_id integer,
+    organisation_id uuid,
     start_date timestamp,
     end_date timestamp,
-    parent integer,
-    landing_page integer,
+    parent uuid,
+    landing_page uuid,
     PRIMARY KEY (id)
 )
 WITH (
