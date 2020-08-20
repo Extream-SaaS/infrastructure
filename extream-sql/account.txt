@@ -1,3 +1,3 @@
 DB type: postgres
-DB name: extreamer
+DB name: ex-manage | ex-auth
 DB user: postgres // 4cDzu3f1K1qjq1zp4cDzu3f1K1qjq1zp
